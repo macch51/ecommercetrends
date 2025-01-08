@@ -22,20 +22,19 @@ git clone <repository-url>
 ```
 
 2. Install the required dependencies:
-bash
+```bash
 pip install openai python-dotenv
-
+```
 
 3. Create a `.env` file in the project root and add your OpenAI API key:
-plaintext
+```plaintext
 OPENAI_API_KEY=your_api_key_here
-
+```
 
 ## Input Data Format
 
 The script expects a JSON file named `bestsellers_with_reviews.json` with the following structure:
-json
-json
+```json
 [
 {
 "items": [
@@ -53,7 +52,7 @@ json
 ]
 }
 ]
-
+```
 
 ## Output
 
