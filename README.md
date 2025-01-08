@@ -17,9 +17,9 @@ This Python script automatically generates video scripts for products based on t
 ## Installation
 
 1. Clone this repository:
-bash
+```bash
 git clone <repository-url>
-
+```
 
 2. Install the required dependencies:
 bash
